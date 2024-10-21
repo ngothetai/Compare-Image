@@ -1,0 +1,3 @@
+python train.py --mode train --train_json data/class_train_annotation.json  --train_image_dir data/train --val_json data/class_val_annotation.json --val_image_dir data/val --log_dir logs --checkpoint_dir checkpoints --batch_size 16 --learning_rate 5e-5 --num_epochs 10 --resume_checkpoint checkpoints/checkpoint_epoch_6_acc_0.5577.pth
+
+python train.py --mode inference --inference_json data/class_val_annotation.json --inference_image_dir data/val --checkpoint_path checkpoints/checkpoint_epoch_6_acc_0.5577.pth --output_file predictions.json --batch_size 16
