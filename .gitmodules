@@ -1,0 +1,6 @@
+[submodule "MIC_tool"]
+	path = MIC_tool
+	url = https://github.com/HaozheZhao/MIC_tool.git
+[submodule "MIC"]
+	path = MIC
+	url = https://github.com/HaozheZhao/MIC.git

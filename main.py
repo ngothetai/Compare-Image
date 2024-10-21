@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import AdamW, get_cosine_schedule_with_warmup
-from MIC.model.instructblip import InstructBlipConfig, InstructBlipForConditionalGeneration, InstructBlipProcessor
+from transformers import InstructBlipConfig, InstructBlipForConditionalGeneration, InstructBlipProcessor
 from PIL import Image
 import json
 import os
